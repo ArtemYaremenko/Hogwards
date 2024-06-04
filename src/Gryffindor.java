@@ -12,10 +12,6 @@ class Gryffindor extends Hogwards {
         this.bravery = bravery;
     }
 
-    public static void displayStudentInfo(Gryffindor o) {
-        System.out.println(o.toString());
-    }
-
     public void comparingGryffindor(Gryffindor o) {
         if (this.nobility + this.honor + this.bravery > o.nobility + o.honor + o.bravery) {
             System.out.println(this.getFirstName() + " " + this.getLastName() + " is a better Gryffindor than " + o.getFirstName() + " " + o.getLastName());
@@ -40,8 +36,12 @@ class Gryffindor extends Hogwards {
 
     @Override
     public String toString() {
-        return this.getFirstName() + " " + this.getLastName() + " Gryffindor {" +
-                "nobility=" + nobility +
+        return this.getFirstName() + " " + this.getLastName() + " Hogwards {" +
+                "firstName='" + this.getFirstName() + '\'' +
+                ", lastName='" + this.getLastName() + '\'' +
+                ", magicPower=" + this.getMagicPower() +
+                ", transgression=" + this.getTransgression() +
+                ", nobility=" + nobility +
                 ", honor=" + honor +
                 ", bravery=" + bravery +
                 '}';

@@ -5,6 +5,6 @@ public class Main {
         Gryffindor ronWeasley = new Gryffindor("Ron", "Weasley", 50, 20, 50, 80, 60);
 
         ronWeasley.comparingGryffindor(hermioneGranger);
-        Gryffindor.displayStudentInfo(harryPotter);
+        Hogwards.displayStudentInfo(harryPotter);
     }
 }

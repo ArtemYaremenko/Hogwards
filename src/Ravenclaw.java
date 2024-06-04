@@ -47,9 +47,9 @@ public class Ravenclaw extends Hogwards {
                 ", lastName='" + this.getLastName() + '\'' +
                 ", magicPower=" + this.getMagicPower() +
                 ", transgression=" + this.getTransgression() +
-                ", nobility=" + smart +
-                ", honor=" + wise +
-                ", bravery=" + witty +
+                ", smart=" + smart +
+                ", wise=" + wise +
+                ", witty=" + witty +
                 ", creativity=" + creativity +
                 '}';
     }

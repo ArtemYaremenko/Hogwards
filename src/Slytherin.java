@@ -18,11 +18,11 @@ public class Slytherin extends Hogwards {
 
     public void comparingSlytherin(Slytherin o) {
         if (this.cunning + this.determination + this.ambition + this.resourcefulness + this.thirstForPower > o.cunning + o.determination + o.ambition + o.resourcefulness + o.thirstForPower) {
-            System.out.println(this.getFirstName() + " " + this.getLastName() + " is a better Ravenclaw than " + o.getFirstName() + " " + o.getLastName());
+            System.out.println(this.getFirstName() + " " + this.getLastName() + " is a better Slytherin than " + o.getFirstName() + " " + o.getLastName());
         } else if (this.cunning + this.determination + this.ambition + this.resourcefulness + this.thirstForPower < o.cunning + o.determination + o.ambition + o.resourcefulness + o.thirstForPower) {
-            System.out.println(o.getFirstName() + " " + o.getLastName() + " is a better Ravenclaw than " + this.getFirstName() + " " + this.getLastName());
+            System.out.println(o.getFirstName() + " " + o.getLastName() + " is a better Slytherin than " + this.getFirstName() + " " + this.getLastName());
         } else {
-            System.out.println(o.getFirstName() + " " + o.getLastName() + "  is a Ravenclaw like " + this.getFirstName() + " " + this.getLastName());
+            System.out.println(o.getFirstName() + " " + o.getLastName() + "  is a Slytherin like " + this.getFirstName() + " " + this.getLastName());
         }
     }
 
@@ -53,10 +53,10 @@ public class Slytherin extends Hogwards {
                 ", lastName='" + this.getLastName() + '\'' +
                 ", magicPower=" + this.getMagicPower() +
                 ", transgression=" + this.getTransgression() +
-                ", nobility=" + cunning +
-                ", honor=" + determination +
-                ", bravery=" + ambition +
-                ", creativity=" + resourcefulness +
+                ", cunning=" + cunning +
+                ", determination=" + determination +
+                ", ambition=" + ambition +
+                ", resourcefulness=" + resourcefulness +
                 ", thirst for power=" + thirstForPower +
                 '}';
     }

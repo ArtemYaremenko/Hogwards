@@ -41,9 +41,9 @@ public class Hufflepuff extends Hogwards {
                 ", lastName='" + this.getLastName() + '\'' +
                 ", magicPower=" + this.getMagicPower() +
                 ", transgression=" + this.getTransgression() +
-                ", nobility=" + diligence +
-                ", honor=" + loyalty +
-                ", bravery=" + honesty +
+                ", diligence=" + diligence +
+                ", loyalty=" + loyalty +
+                ", honesty=" + honesty +
                 '}';
     }
 

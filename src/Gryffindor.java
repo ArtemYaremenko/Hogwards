@@ -36,7 +36,7 @@ class Gryffindor extends Hogwards {
 
     @Override
     public String toString() {
-        return this.getFirstName() + " " + this.getLastName() + " Hogwards {" +
+        return this.getFirstName() + " " + this.getLastName() + " " + this.getClass() + " {" +
                 "firstName='" + this.getFirstName() + '\'' +
                 ", lastName='" + this.getLastName() + '\'' +
                 ", magicPower=" + this.getMagicPower() +

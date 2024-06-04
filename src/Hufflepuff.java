@@ -1,9 +1,9 @@
 import java.util.Objects;
 
 public class Hufflepuff extends Hogwards {
-    int diligence;
-    int loyalty;
-    int honesty;
+    private int diligence;
+    private int loyalty;
+    private int honesty;
 
     public Hufflepuff(String firstName, String lastName, int magicPower, int transgression, int diligence, int loyalty, int honesty) {
         super(firstName, lastName, magicPower, transgression);

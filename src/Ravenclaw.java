@@ -1,10 +1,10 @@
 import java.util.Objects;
 
 public class Ravenclaw extends Hogwards {
-    int smart;
-    int wise;
-    int witty;
-    int creativity;
+    private int smart;
+    private int wise;
+    private int witty;
+    private int creativity;
 
     public Ravenclaw(String firstName, String lastName, int magicPower, int transgression, int smart, int wise, int witty, int creativity) {
         super(firstName, lastName, magicPower, transgression);
